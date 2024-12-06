@@ -1,0 +1,88 @@
+.header {
+    border-bottom: 2px solid #00000040;
+}
+
+.our-services {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
+}
+
+.card {
+    border: 1px solid #00000040;
+
+}
+
+.men-img {
+    background-image: url("./images/men-image.jpg");
+}
+
+.advantages h2 {
+    color: #000000;
+    font-size: 42px;
+    text-align: center;
+    padding-bottom: 62px;
+}
+
+.advantajes-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.advantajes-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantajes-card span {
+    font-size: 20px;
+    color: #000000;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.request {
+    margin-top: 60px;
+}
+
+.request h3{
+    font-size: 32px;
+    text-align: center;
+    color: #343434;
+}
+
+.request p {
+    font-size: 18px;
+    color: #585858;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 90px;
+}
+
+.request-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-group input{
+    width: 310px;
+    height: 47px;
+}
+
+.request-btn {
+    padding: 12px 68px;
+    background-color: #65256F;
+    border-radius: 3px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #3A3A3A;
+}
+
